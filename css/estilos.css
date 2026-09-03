@@ -117,11 +117,13 @@ em { font-style: italic; color: var(--amarillo-osc); }
 .eventos__foto img { width: 100%; border-radius: var(--radio); }
 
 /* ── Galería ───────────────────────────── */
-.galeria__grupo { margin-bottom: 42px; }
-.galeria__titulo { font-family: var(--fuente-titulo); font-size: 1.35rem; color: var(--choco); text-align: center; margin-bottom: 20px; position: relative; }
-.galeria__titulo::before, .galeria__titulo::after { content: ""; position: absolute; top: 50%; width: 46px; height: 2px; background: var(--borde); }
-.galeria__titulo::before { left: 0; } .galeria__titulo::after { right: 0; }
-.galeria__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.galeria__grupo { margin-bottom: 18px; border: 1px solid var(--borde); border-radius: var(--radio-sm); background: #fff; overflow: hidden; box-shadow: var(--sombra-suave); }
+.galeria__grupo[open] { border-color: var(--amarillo); }
+.galeria__titulo { font-family: var(--fuente-titulo); font-size: 1.25rem; color: var(--choco); padding: 16px 22px; cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: center; gap: 10px; }
+.galeria__titulo::-webkit-details-marker { display: none; }
+.galeria__titulo::after { content: "+"; font-size: 1.5rem; color: var(--amarillo-osc); font-weight: 700; line-height: 1; transition: transform .25s; }
+.galeria__grupo[open] .galeria__titulo::after { transform: rotate(45deg); }
+.galeria__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 16px 16px; }
 .galeria__item { border-radius: var(--radio-sm); overflow: hidden; cursor: pointer; box-shadow: var(--sombra-suave); background: var(--crema); }
 .galeria__item img { width: 100%; height: 100%; aspect-ratio: 1/1; object-fit: cover; transition: transform .5s ease; }
 .galeria__item:hover img { transform: scale(1.06); }
@@ -211,7 +213,6 @@ em { font-style: italic; color: var(--amarillo-osc); }
   .nav__enlace--cta { text-align: center; margin-top: 8px; }
   .seccion { padding: 72px 0; }
   .hero__contenido { padding: 90px 0 80px; }
-  .galeria__titulo::before, .galeria__titulo::after { width: 24px; }
   .eventos { gap: 26px; }
 }
 @media (prefers-reduced-motion: reduce) {
