@@ -136,6 +136,11 @@ em { font-style: italic; color: var(--amarillo-osc); }
 .resena__autor { font-size: .88rem; color: var(--texto-claro); }
 .resena__autor span { color: var(--amarillo-osc); font-weight: 600; }
 
+/* ── Combi ───────────────────────────── */
+.combi { max-width: 520px; margin: 0 auto; }
+.combi img { width: 100%; height: auto; display: block; border-radius: var(--radio); box-shadow: var(--sombra); }
+.combi__pie { text-align: center; margin-top: 14px; font-family: var(--fuente-titulo); font-size: 1.1rem; color: var(--choco); }
+
 /* ── Cómo pedir ────────────────────────── */
 .pasos { display: grid; gap: 20px; }
 .paso { background: #fff; border: 1px solid var(--borde); border-radius: var(--radio); padding: 30px 24px; text-align: center; box-shadow: var(--sombra-suave); }
