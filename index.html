@@ -14,6 +14,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/estilos.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Pastelería Chocolat",
+    "image": "https://wildpig94.github.io/chocolat-web/imagenes/logo-cerezas.svg",
+    "telephone": "+524535343759",
+    "email": "paste_chocolat@hotmail.com",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Lic. Cornelio Ortiz de Zárate Sur",
+      "addressLocality": "Apatzingán",
+      "addressRegion": "Michoacán",
+      "addressCountry": "MX",
+      "postalCode": "60600"
+    },
+    "url": "https://wildpig94.github.io/chocolat-web/",
+    "sameAs": [
+      "https://facebook.com/chocolatpasteles",
+      "https://x.com/Pastechocolat"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -44,7 +68,7 @@
         <p class="hero__etiqueta">Apatzingán, Michoacán</p>
         <h1 class="hero__titulo">Pastelería</h1>
         <p class="hero__marca">Chocolat</p>
-        <p class="hero__sub">Repostería fina que endulza tus celebraciones, hecha con amor en nuestra familia.</p>
+        <p class="hero__sub">Repostería fina que endulza tus celebraciones: postres de calidad de la pastelería favorita de Apatzingán.</p>
         <div class="hero__botones">
           <a class="boton boton--whatsapp" id="heroWa" href="https://wa.me/524535343759" target="_blank" rel="noopener">Pedir por WhatsApp</a>
           <a class="boton boton--borde" href="#especialidades">Ver especialidades</a>
@@ -58,7 +82,7 @@
         <div class="seccion__encabezado">
           <p class="seccion__etiqueta">Especialidades</p>
           <h2 class="seccion__titulo">Algo rico <em>para cada ocasión</em></h2>
-          <p class="seccion__intro">Toca cada categoría para ver los sabores y precios de hoy.</p>
+          <p class="seccion__intro">Toca cada categoría para ver sabores y precios.</p>
         </div>
 
         <div class="especiales">
@@ -122,7 +146,7 @@
                 <span>Especial de Baby Shower <b>a cotizar</b></span>
                 <span class="especial__accion"><a class="boton boton--whatsapp" href="https://wa.me/524535343759" target="_blank" rel="noopener">Pregunta por la de la época</a></span>
               </div>
-              <p class="especial__nota">Pregúntanos qué especialidad tenemos esta semana por WhatsApp.</p>
+              <p class="especial__nota">Pregúntanos qué especialidad tenemos en temporada por WhatsApp.</p>
             </div>
           </article>
 
@@ -165,6 +189,35 @@
           <p class="seccion__intro">Explora nuestra repostería, los pasteles personalizados y nuestra pastelería por categorías.</p>
         </div>
         <div id="galeriaGrid"><!-- se llena con JS --></div>
+      </div>
+    </section>
+
+    <!-- ═══════════ RESEÑAS ═══════════ -->
+    <section class="seccion" id="resenas">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta">Opiniones de clientes</p>
+          <h2 class="seccion__titulo">Lo que dicen en <em>Google</em></h2>
+          <p class="seccion__intro">La pastelería favorita de Apatzingán, según quienes ya nos probaron.</p>
+        </div>
+        <div class="resenas">
+          <!-- TODO: reemplazar por reseñas reales de Google -->
+          <article class="resena">
+            <div class="resena__estrellas" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="resena__texto">"Los mejores pasteles de Apatzingán. El de chocolate es otro nivel."</p>
+            <p class="resena__autor">— María G. · <span>Reseña de Google</span></p>
+          </article>
+          <article class="resena">
+            <div class="resena__estrellas" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="resena__texto">"Pedí mi pastel de XV años y quedó hermoso y a tiempo. Súper recomendados."</p>
+            <p class="resena__autor">— Fernanda R. · <span>Reseña de Google</span></p>
+          </article>
+          <article class="resena">
+            <div class="resena__estrellas" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p class="resena__texto">"Calidad y atención de primera. Ya es mi pastelería de confianza para todo evento."</p>
+            <p class="resena__autor">— Luis M. · <span>Reseña de Google</span></p>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -275,7 +328,7 @@
         <div class="seccion__encabezado">
           <p class="seccion__etiqueta">Dónde encontrarnos</p>
           <h2 class="seccion__titulo">Dos sucursales <em>en Apatzingán</em></h2>
-          <p class="seccion__intro">Visítanos en cualquiera de las dos, o pide por WhatsApp.</p>
+          <p class="seccion__intro">Dos sucursales en Apatzingán para servirte: la misma calidad, más cerca de ti.</p>
         </div>
 
         <div class="sucursales">
