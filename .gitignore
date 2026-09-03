@@ -1,0 +1,8 @@
+# ─── Archivos internos — NO publicar ───
+IMAGENES-ORIGEN.txt
+perfil-whatsapp-business.md
+*.zip
+
+# ─── Entorno ───
+.DS_Store
+Thumbs.db

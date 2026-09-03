@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 130" role="img" aria-label="Logo Pastelería Chocolat">
+  <defs>
+    <radialGradient id="ch1" cx="0.35" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#ef4b41"/>
+      <stop offset="0.7" stop-color="#d9291f"/>
+      <stop offset="1" stop-color="#b51d14"/>
+    </radialGradient>
+    <radialGradient id="ch2" cx="0.35" cy="0.3" r="0.85">
+      <stop offset="0" stop-color="#ef4b41"/>
+      <stop offset="0.7" stop-color="#d9291f"/>
+      <stop offset="1" stop-color="#b51d14"/>
+    </radialGradient>
+  </defs>
+
+  <!-- white sticker blob -->
+  <path d="M60 4 C 82 6 96 22 102 42 C 108 58 116 74 114 94 C 112 116 92 128 62 128 C 30 128 10 114 8 92 C 6 70 14 52 20 38 C 30 16 44 3 60 4 Z" fill="#ffffff" stroke="#f3e9d8" stroke-width="1"/>
+
+  <!-- stems (chocolate brown, curling) -->
+  <path d="M50 74 C 44 52 44 40 42 30" stroke="#7a4224" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M58 78 C 66 54 68 44 78 34" stroke="#7a4224" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="42" cy="30" r="4" fill="#7a4224"/>
+  <circle cx="78" cy="34" r="4" fill="#7a4224"/>
+
+  <!-- green leaf (top) -->
+  <path d="M42 30 C 50 12 70 10 80 24 C 72 34 52 38 42 30 Z" fill="#5fae3e"/>
+  <path d="M42 30 C 54 26 66 24 74 26" stroke="#4c9430" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- cherries -->
+  <circle cx="44" cy="98" r="27" fill="url(#ch1)"/>
+  <circle cx="76" cy="102" r="27" fill="url(#ch2)"/>
+
+  <!-- white highlights -->
+  <path d="M28 92 a 10 10 0 0 1 10 -11" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M60 96 a 10 10 0 0 1 10 -11" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M34 88 a 5 5 0 0 1 5 -5" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- subtle darker base on cherries -->
+  <path d="M18 116 C 30 124 58 124 70 116" stroke="#9c1910" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.35"/>
+  <path d="M56 120 C 74 126 96 120 102 112" stroke="#9c1910" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.35"/>
+</svg>

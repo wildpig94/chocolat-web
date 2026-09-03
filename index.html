@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pastelería Chocolat · Repostería fina en Apatzingán</title>
+  <meta name="description" content="Pastelería Chocolat en Apatzingán, Michoacán. Repostería fina: cupcakes, pasteles para bodas, XV años y cumpleaños, pasteles de temporada y postres. Pedidos por WhatsApp. Dos sucursales." />
+  <meta property="og:title" content="Pastelería Chocolat · Repostería fina" />
+  <meta property="og:description" content="Cupcakes, pasteles para eventos y repostería fina en Apatzingán. Pide por WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_MX" />
+  <link rel="icon" href="imagenes/logo-cerezas.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <!-- ═══════════ ENCABEZADO ═══════════ -->
+  <header class="cabecera" id="cabecera">
+    <div class="contenedor cabecera__interior">
+      <a href="#inicio" class="marca">
+        <img src="imagenes/logo-cerezas.svg" alt="Logo Pastelería Chocolat" class="marca__logo" />
+        <span class="marca__nombre">Chocolat</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Menú principal">
+        <a href="#especialidades" class="nav__enlace">Especialidades</a>
+        <a href="#eventos" class="nav__enlace">Para tu evento</a>
+        <a href="#galeria" class="nav__enlace">Galería</a>
+        <a href="#ubicacion" class="nav__enlace">Tu pastelería</a>
+        <a href="#pedido" class="nav__enlace nav__enlace--cta">Cotiza tu pastel</a>
+      </nav>
+      <button class="menu-boton" id="menuBoton" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="inicio">
+      <div class="hero__fondo" style="background-image:url('imagenes/foto-01.jpg')"></div>
+      <div class="hero__capa"></div>
+      <div class="contenedor hero__contenido">
+        <p class="hero__etiqueta">Apatzingán, Michoacán</p>
+        <h1 class="hero__titulo">Pastelería</h1>
+        <p class="hero__marca">Chocolat</p>
+        <p class="hero__sub">Repostería fina que endulza tus celebraciones, hecha con amor en nuestra familia.</p>
+        <div class="hero__botones">
+          <a class="boton boton--whatsapp" id="heroWa" href="https://wa.me/524535343759" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <a class="boton boton--borde" href="#especialidades">Ver especialidades</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ESPECIALIDADES (menús desplegables) ═══════════ -->
+    <section class="seccion" id="especialidades">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta">Especialidades</p>
+          <h2 class="seccion__titulo">Algo rico <em>para cada ocasión</em></h2>
+          <p class="seccion__intro">Toca cada categoría para ver los sabores y precios de hoy.</p>
+        </div>
+
+        <div class="especiales">
+
+          <article class="especial">
+            <div class="especial__foto" data-toggle>
+              <img src="imagenes/foto-04.jpg" alt="Cupcakes y postres del día" loading="lazy" />
+              <span class="especial__toggle">+</span>
+            </div>
+            <div class="especial__cuerpo">
+              <h3 class="especial__titulo">Postres del día</h3>
+              <p class="especial__texto">Cupcakes y postres recién hechos, ideales para consentirte cualquier día.</p>
+              <div class="especial__menu">
+                <span>Cupcake de plátano (almendra + nuez) <b>$45</b></span>
+                <span>Cupcake zanahoria + cheesecake <b>$50</b></span>
+                <span>Cupcake zanahoria integral <b>$40</b></span>
+                <span>Mini chocolate tradicional <b>$55</b></span>
+                <span>Brownie <b>$50</b></span>
+                <span>Pan de elote <b>$45</b></span>
+                <span>Pastel Matilda <b>$60</b></span>
+                <span>Gelatina de zanahoria <b>$30</b></span>
+                <span class="especial__accion"><a class="boton boton--whatsapp" href="https://wa.me/524535343759" target="_blank" rel="noopener">Pedir estos postres</a></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="especial">
+            <div class="especial__foto" data-toggle>
+              <img src="imagenes/foto-02.jpg" alt="Pasteles para eventos" loading="lazy" />
+              <span class="especial__toggle">+</span>
+            </div>
+            <div class="especial__cuerpo">
+              <h3 class="especial__titulo">Pasteles para eventos</h3>
+              <p class="especial__texto">Bodas, XV años y cumpleaños. Lo cotizamos según tamaño y diseño.</p>
+              <div class="especial__menu">
+                <span>Pastel de chocolate (1 kg) <b>$1,430</b></span>
+                <span>Red velvet <b>a cotizar</b></span>
+                <span>Cheesecake <b>a cotizar</b></span>
+                <span>Pastel de nuez <b>a cotizar</b></span>
+                <span>Flan de queso <b>a cotizar</b></span>
+                <span>Pastel personalizado (nombre/mensaje) <b>a cotizar</b></span>
+                <span class="especial__accion"><a class="boton boton--whatsapp" href="https://wa.me/524535343759" target="_blank" rel="noopener">Cotiza el tuyo</a></span>
+              </div>
+              <p class="especial__nota">El precio depende del tamaño y el diseño. <a href="#eventos">Ver detalle →</a></p>
+            </div>
+          </article>
+
+          <article class="especial">
+            <div class="especial__foto" data-toggle>
+              <img src="imagenes/foto-05.jpg" alt="Especialidades de temporada" loading="lazy" />
+              <span class="especial__toggle">+</span>
+            </div>
+            <div class="especial__cuerpo">
+              <h3 class="especial__titulo">De temporada</h3>
+              <p class="especial__texto">Sabores que cambian con las fechas: Navidad, Día del Padre, Baby Shower y más.</p>
+              <div class="especial__menu">
+                <span>Cocopina de 3 leches <b>a cotizar</b></span>
+                <span>Gelatina de yogurt <b>a cotizar</b></span>
+                <span>Pastel navideño (referencia SANTA) <b>a cotizar</b></span>
+                <span>Especial de Día del Padre <b>a cotizar</b></span>
+                <span>Especial de Baby Shower <b>a cotizar</b></span>
+                <span class="especial__accion"><a class="boton boton--whatsapp" href="https://wa.me/524535343759" target="_blank" rel="noopener">Pregunta por la de la época</a></span>
+              </div>
+              <p class="especial__nota">Pregúntanos qué especialidad tenemos esta semana por WhatsApp.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ EVENTOS ═══════════ -->
+    <section class="seccion seccion--crema" id="eventos">
+      <div class="contenedor">
+        <div class="eventos">
+          <div class="eventos__texto">
+            <p class="seccion__etiqueta">¿Planeas un evento?</p>
+            <h2 class="seccion__titulo">Un pastel que hace <em>memorable</em> tu celebración</h2>
+            <p class="eventos__intro">
+              ¿Vives fuera de Apatzingán y estás organizando un evento aquí?
+              Cuéntanos la fecha y el número de invitados, y te cotizamos el
+              pastel ideal para bodas, XV años o cumpleaños. Coordinamos
+              todo por WhatsApp para que lo tengas listo el día de tu evento.
+            </p>
+            <ul class="eventos__lista">
+              <li>✓ Pasteles para bodas y XV años</li>
+              <li>✓ Pasteles personalizados con nombres y mensajes</li>
+              <li>✓ Diseño de pastel a tu gusto y según el tamaño</li>
+              <li>✓ Pedidos con anticipación y entrega en Apatzingán</li>
+            </ul>
+            <a class="boton boton--whatsapp boton--grande" id="eventoWa" href="https://wa.me/524535343759" target="_blank" rel="noopener">Quiero cotizar mi pastel</a>
+          </div>
+          <div class="eventos__foto"><img src="imagenes/foto-17.jpg" alt="Pastel personalizado de evento" loading="lazy" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ GALERÍA ═══════════ -->
+    <section class="seccion" id="galeria">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta">Galería</p>
+          <h2 class="seccion__titulo">Nuestros dulces, <em>por ti</em></h2>
+          <p class="seccion__intro">Explora nuestra repostería, los pasteles personalizados y nuestra pastelería por categorías.</p>
+        </div>
+        <div id="galeriaGrid"><!-- se llena con JS --></div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CÓMO PEDIR ═══════════ -->
+    <section class="seccion seccion--crema" id="como-pedir">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta">Cómo pedir</p>
+          <h2 class="seccion__titulo">En 3 pasos <em>y listo</em></h2>
+        </div>
+        <div class="pasos">
+          <div class="paso"><span class="paso__n">1</span><h3>Escríbenos por WhatsApp</h3><p>Cuéntanos qué necesitas: pastel, cupcakes o postres.</p></div>
+          <div class="paso"><span class="paso__n">2</span><h3>Elige sabor y diseño</h3><p>Te asesoramos y confirmamos precio, tamaño y fecha.</p></div>
+          <div class="paso"><span class="paso__n">3</span><h3>Recoge o coordina entrega</h3><p>Lo tienes listo para tu evento. ¡A disfrutar!</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PEDIDO / COTIZACIÓN ═══════════ -->
+    <section class="seccion seccion--crema" id="pedido">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta">Cotiza o pide</p>
+          <h2 class="seccion__titulo">Arma tu pedido <em>en segundos</em></h2>
+          <p class="seccion__intro">Llena el formulario y se abre WhatsApp con tu pedido ya escrito. Solo lo revisas y lo envías.</p>
+        </div>
+
+        <form class="pedido" id="formPedido" novalidate>
+          <div class="pedido__grid">
+
+            <label class="campo">
+              <span>Tipo de pedido *</span>
+              <select id="pedTipo" required>
+                <option value="">Elige un tipo…</option>
+                <option value="evento">Pastel para evento</option>
+                <option value="postre">Postre del día</option>
+                <option value="temporada">Especialidad de temporada</option>
+              </select>
+            </label>
+
+            <label class="campo">
+              <span>Producto *</span>
+              <select id="pedProducto" required>
+                <option value="">Elige primero el tipo…</option>
+              </select>
+            </label>
+
+            <label class="campo">
+              <span>Tamaño / porciones *</span>
+              <select id="pedTamano" required>
+                <option value="">Elige tamaño…</option>
+                <option value="1 kg (~15 personas)">1 kg (~15 personas)</option>
+                <option value="2 kg (~30 personas)">2 kg (~30 personas)</option>
+                <option value="3 kg (~45 personas)">3 kg (~45 personas)</option>
+              </select>
+            </label>
+
+            <label class="campo">
+              <span>Fecha del evento *</span>
+              <input type="date" id="pedFecha" required />
+            </label>
+
+            <label class="campo campo--ancho">
+              <span>Mensaje en el pastel (opcional)</span>
+              <input type="text" id="pedMensaje" placeholder="Ej. Feliz cumpleaños Ana" />
+            </label>
+
+            <div class="campo campo--ancho">
+              <span>Extras</span>
+              <div class="pedido__checks">
+                <label><input type="checkbox" value="Cupcakes a juego" /> Cupcakes a juego</label>
+                <label><input type="checkbox" value="Decoración especial" /> Decoración especial</label>
+                <label><input type="checkbox" value="Vela de número" /> Vela de número</label>
+                <label><input type="checkbox" value="Topper personalizado" /> Topper personalizado</label>
+              </div>
+            </div>
+
+            <label class="campo">
+              <span>Tu nombre *</span>
+              <input type="text" id="pedNombre" placeholder="Tu nombre" required />
+            </label>
+
+            <label class="campo">
+              <span>Teléfono (opcional)</span>
+              <input type="tel" id="pedTel" placeholder="Ej. 453 123 4567" />
+            </label>
+
+            <label class="campo campo--ancho">
+              <span>¿Cliente de fuera de Apatzingán?</span>
+              <select id="pedFuera">
+                <option value="no">No, soy de aquí</option>
+                <option value="si">Sí, soy de fuera</option>
+              </select>
+            </label>
+
+          </div>
+
+          <p class="pedido__error" id="pedError" hidden>Revisa los campos marcados con * y que la fecha no sea pasada.</p>
+          <button type="submit" class="boton boton--whatsapp boton--ancho">Enviar pedido por WhatsApp</button>
+          <p class="pedido__nota">Al enviar se abre WhatsApp con tu pedido ya armado; solo dale "enviar".</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ═══════════ UBICACIÓN ═══════════ -->
+    <section class="seccion" id="ubicacion">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta">Dónde encontrarnos</p>
+          <h2 class="seccion__titulo">Dos sucursales <em>en Apatzingán</em></h2>
+          <p class="seccion__intro">Visítanos en cualquiera de las dos, o pide por WhatsApp.</p>
+        </div>
+
+        <div class="sucursales">
+          <article class="sucursal">
+            <img class="sucursal__foto" src="imagenes/sucursal-madre.jpg" alt="Fachada de la Sucursal Madre" loading="lazy" />
+            <span class="sucursal__icono"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg></span>
+            <h3 class="sucursal__nombre">Sucursal Madre</h3>
+            <p class="sucursal__dir">Calle Lic. Cornelio Ortiz de Zárate Sur, Apatzingán, Michoacán, CP 60600</p>
+            <p class="sucursal__horario">Lun–Sáb: 8:00–19:30</p>
+            <a class="sucursal__tel" href="tel:+524535343759">453 534 3759</a>
+            <a class="sucursal__wa" href="https://wa.me/524535343759" target="_blank" rel="noopener">Pedir por WhatsApp</a><br />
+            <a class="sucursal__mapa" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Calle+Lic.+Cornelio+Ortiz+de+Z%C3%A1rate+Sur+Apatzing%C3%A1n+Michoac%C3%A1n">Cómo llegar →</a>
+          </article>
+
+          <article class="sucursal sucursal--destacada">
+            <img class="sucursal__foto" src="imagenes/foto-24.jpg" alt="Fachada de la Sucursal Constitución" loading="lazy" />
+            <span class="sucursal__icono"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <h3 class="sucursal__nombre">Sucursal Constitución</h3>
+            <p class="sucursal__dir">Av. Constitución Sur 17, Col. Centro, Apatzingán, Michoacán, CP 60600</p>
+            <p class="sucursal__horario">L–Mar–Jue–Vie–Sáb: 10:00–21:00 · Mié: Cerrado · Dom: 11:00–21:00</p>
+            <a class="sucursal__tel" href="tel:+524535328626">453 532 8626</a>
+            <a class="sucursal__wa" href="https://wa.me/524535328626" target="_blank" rel="noopener">Pedir por WhatsApp</a><br />
+            <a class="sucursal__mapa" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Constituci%C3%B3n+Sur+17+Centro+Apatzing%C3%A1n+Michoac%C3%A1n">Cómo llegar →</a>
+          </article>
+        </div>
+
+        <div class="mapa">
+          <iframe title="Mapa Sucursal Constitución" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Constituci%C3%B3n%20Sur%2017%20Centro%20Apatzing%C3%A1n%20Michoac%C3%A1n&output=embed"></iframe>
+        </div>
+
+        <p class="ubicacion__nota"><a href="mailto:paste_chocolat@hotmail.com">paste_chocolat@hotmail.com</a> · <a href="https://facebook.com/chocolatpasteles" target="_blank" rel="noopener">Facebook</a> · <a href="https://x.com/Pastechocolat" target="_blank" rel="noopener">X</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ PIE ═══════════ -->
+  <footer class="pie" id="contacto">
+    <div class="contenedor pie__interior">
+      <p class="pie__marca"><img src="imagenes/logo-cerezas.svg" alt="Logo Pastelería Chocolat" /><span class="pie__marca_texto">Chocolat</span></p>
+      <p class="pie__texto">Repostería fina · Apatzingán, Michoacán</p>
+      <p class="pie__contacto">
+        <a href="tel:+524535343759">453 534 3759</a> ·
+        <a href="https://wa.me/524535343759" target="_blank" rel="noopener">WhatsApp</a> ·
+        <a href="https://facebook.com/chocolatpasteles" target="_blank" rel="noopener">Facebook</a> ·
+        <a href="mailto:paste_chocolat@hotmail.com">Correo</a>
+      </p>
+      <a class="boton boton--whatsapp boton--pie" id="footerWa" href="https://wa.me/524535343759" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+      <p class="pie__credito">© <span id="anio">2026</span> Pastelería Chocolat · Hecho por <span>CAMENA</span> · <a href="mailto:camenalabs@proton.me">camenalabs@proton.me</a></p>
+    </div>
+  </footer>
+
+  <!-- ═══════════ LIGHTBOX ═══════════ -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__cerrar" id="lbCerrar" aria-label="Cerrar">✕</button>
+    <button class="lightbox__nav lightbox__prev" id="lbPrev" aria-label="Anterior">‹</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="Pastel de Pastelería Chocolat" />
+    <button class="lightbox__nav lightbox__next" id="lbNext" aria-label="Siguiente">›</button>
+  </div>
+
+  <script src="js/galeria.js"></script>
+  <script src="js/principal.js"></script>
+</body>
+</html>
